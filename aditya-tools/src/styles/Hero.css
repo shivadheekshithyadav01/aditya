@@ -1,0 +1,50 @@
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding-top: 150px;
+    /* adjust vertical position */
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    background: linear-gradient(90deg, #FFD700, #FF8C00);
+    background-clip: text;
+    /* Standard property */
+    -webkit-background-clip: text;
+    /* Chrome, Safari */
+    -webkit-text-fill-color: transparent;
+    /* Chrome, Safari */
+    color: transparent;
+    /* Fallback for browsers that support standard */
+    letter-spacing: 2px;
+}
+
+
+.hero p {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-top: 1rem;
+    max-width: 600px;
+}
+
+.hero button {
+    margin-top: 2rem;
+    padding: 12px 30px;
+    border: 2px solid #FFD700;
+    background: transparent;
+    color: #FFD700;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.hero button:hover {
+    background: #FFD700;
+    color: #0d0d0d;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Tools</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- 3D Background -->
+    <div id="background3D"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Aditya Tools</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#clients">Clients</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>ADITYA TOOLS</h1>
+        <p>Precision. Power. Perfection.</p>
+        <button onclick="scrollToSection('services')">Explore Services</button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We specialize in CNC works, grinding, sharpening, and lathe operations, delivering high precision and
+                quality to industries worldwide. Our skilled team ensures every tool meets the highest performance
+                standards.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-cards">
+                <div class="card">
+                    <h3>CNC Works</h3>
+                    <p>Precision CNC machining for complex industrial needs.</p>
+                </div>
+                <div class="card">
+                    <h3>Tool Grinding</h3>
+                    <p>High-quality grinding and sharpening for extended tool life.</p>
+                </div>
+                <div class="card">
+                    <h3>Lathe Works</h3>
+                    <p>Custom turning and shaping for various applications.</p>
+                </div>
+                <div class="card">
+                    <h3>Sharpening</h3>
+                    <p>Expert sharpening to restore tools to peak performance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients">
+        <div class="container">
+            <h2>Our Clients</h2>
+            <p>We have proudly worked with top manufacturers, workshops, and engineering firms across the globe.</p>
+            <div class="client-logos">
+                <img src="assets/logo1.png" alt="Client 1">
+                <img src="assets/logo2.png" alt="Client 2">
+                <img src="assets/logo3.png" alt="Client 3">
+                <img src="assets/logo4.png" alt="Client 4">
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <p>"Aditya Tools transformed our production process with their unmatched precision and service quality."</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p>Email: info@adityatools.com | Phone: +91 98765 43210</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Aditya Tools. All rights reserved.</p>
+    </footer>
+
+    <!-- Three.js and Controls -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.158.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.158.0/examples/js/controls/OrbitControls.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
